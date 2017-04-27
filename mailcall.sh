@@ -15,24 +15,5 @@ if [ -z "$addbook" ] || [[ $addbook =~ ^\ +$ ]]; then
     done
 fi
 for address in $addbook; do
-    sendmail $address -t << EOF
-To: <$address>
-From: $USER <$user@gmail.com>
-Subject: rare pepes
-MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="FILEBOUNDARY"
-
---FILEBOUNDARY
-Content-Type: text/plain; charset=UTF-8
-Content-Disposition: inline
-
-hey, check out these dank memes comrade. my favorite is the fifth one.
---FILEBOUNDARY
-Content-Type: application/x-compressed
-Content-Disposition: attachment; filename="memes.tar.gz"
-Content-Transfer-Encoding: base64
-
-put base64 of memes here
---FILEBOUNDARY--
-EOF
+    echo -en 'To: <$address>\nFrom: $USER <$user@gmail.com>\nSubject: thought you might like this\nMIME-Version: 1.0\nContent-Type: multipart/mixed; boundary="FILEBOUNDARY"\n\n--FILEBOUNDARY\nContent-Type: text/plain; charset=UTF-8\nContent-Disposition: inline\n\nhey, check out these dank memes comrade. my favorite is the first one.\n--FILEBOUNDARY\nContent-Type: application/x-compressed\nContent-Disposition: attachment; filename="memes.tar.gz"\nContent-Transfer-Encoding: base64\n\n\$meme64\n--FILEBOUNDARY--' | sendmail -t
 done

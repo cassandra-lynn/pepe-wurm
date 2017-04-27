@@ -1,7 +1,0 @@
-To: "Cass Leach" <connor.s.leach@gmail.com>
-From: "Cass Leach" <csleach@bu.edu>
-Subject: sendmail test
-MIME-Version: 1.0
-Content-Type: text/plain
-
-i hope this gets to you!
