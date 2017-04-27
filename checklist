@@ -1,0 +1,5 @@
+[ ] add base64 attachment of worm to the email
+[ ] make the worm persistently open an onion service backdoor
+[ ] obfuscate worm in base64 throughout the pepes
+[ ] write code to decode get the base64 code from the pepes and decode and run it
+[ ] put that above code as base64 in the .desktop file

